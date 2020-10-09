@@ -1,0 +1,50 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  border:0;
+}
+
+.container {
+  background-color: WHITE;
+  width:500px;
+  height: 200px;
+  margin: 20px;
+}
+
+img {
+  width: 150px;
+  height: 210px;
+  display: inline-block;
+  border-bottom: solid 5px white;
+}
+
+.box {
+  width: 150px;
+  height: 210px;
+  display: inline-block;
+  position: relative;
+}
+
+.discount {
+  background-color: green;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.red {
+  background-color: red;
+}
+
+.heart {
+
+  color: black;
+  position: absolute;
+  bottom:0px;
+  right: 45%;
+  display:none;
+}
+
+.box:hover .heart {
+  display: block;
+}
