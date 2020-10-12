@@ -5,10 +5,17 @@ body {
 }
 
 .container {
-  background-color: WHITE;
   width:500px;
   height: 200px;
+  background-color: white;
   margin: 20px;
+}
+
+.box {
+  width: 150px;
+  height: 210px;
+  display: inline-block;
+  position: relative;
 }
 
 img {
@@ -37,8 +44,7 @@ img {
 }
 
 .heart {
-
-  color: black;
+  color: red;
   position: absolute;
   bottom:0px;
   right: 45%;
