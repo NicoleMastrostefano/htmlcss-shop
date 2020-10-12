@@ -25,13 +25,6 @@ img {
   border-bottom: solid 5px white;
 }
 
-.box {
-  width: 150px;
-  height: 210px;
-  display: inline-block;
-  position: relative;
-}
-
 .discount {
   background-color: green;
   position: absolute;
